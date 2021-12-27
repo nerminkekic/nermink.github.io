@@ -1,0 +1,46 @@
+.clearfix {
+  overflow: auto;
+}
+
+body {
+  padding: 100px;
+  margin: 40px;
+  border: 10px solid rgba(66, 160, 86);
+  background: rgba(129, 197, 232);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+section {
+  color: white;
+}
+h1 {
+  font-family: "David Libre", serif;
+  margin: auto;
+  width: 85%;
+  font-size: 150px;
+}
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  color: rgba(66, 160, 86);
+}
+
+img {
+  float: right;
+  margin-left: 80px;
+  margin-bottom: 80px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.vertical-line {
+  display: inline;
+  border-left: 5px solid rgba(104, 149, 174);
+  margin: 0 20px 0 20px;
+}
